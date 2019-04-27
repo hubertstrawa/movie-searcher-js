@@ -450,13 +450,8 @@ body {
     justify-content: center; }
     @media only screen and (max-width: 37.5em) { 
       .movie__love {
-        background: #F2F2F2;
+        display: none;
       }
-
-      .movie__love svg {
-        fill: #000000 !important;
-      }
-    }
     .movie__love:hover {
       transform: scale(1.07); }
     .movie__love:focus {
@@ -484,8 +479,7 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     grid-gap: .3rem;
   }
-  .movie__popular-fig {
-  }
+
   .movie__popular-img {
     object-fit: cover;
     width: 100%;
