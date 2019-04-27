@@ -452,6 +452,7 @@ body {
       .movie__love {
         display: none;
       }
+    }
     .movie__love:hover {
       transform: scale(1.07); }
     .movie__love:focus {
@@ -479,7 +480,8 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     grid-gap: .3rem;
   }
-
+  .movie__popular-fig {
+  }
   .movie__popular-img {
     object-fit: cover;
     width: 100%;
