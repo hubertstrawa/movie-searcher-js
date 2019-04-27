@@ -272,6 +272,11 @@ body {
     visibility: hidden;
     opacity: 0;
     transition: all .5s .2s; }
+    @media only screen and (max-width: 37.5em) { 
+      .likes__field {
+        display: none;
+      }
+    }
 
 .results,
 .likes {
